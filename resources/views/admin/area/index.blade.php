@@ -13,7 +13,7 @@
                     <div class="card-header">
                       <h3 class="card-title float-left"><strong >Our All Areas ({{ $areacount }})</strong></h3>
                       
-                    <a href="{{route('admin.area.create')}}" class="btn btn-success btn-md float-right c-white">Add new area <i class="fa fa-plus"></i></a>
+                    <!-- <a href="{{route('admin.area.create')}}" class="btn btn-success btn-md float-right c-white">Add new area <i class="fa fa-plus"></i></a> -->
                     </div>
                     <!-- /.card-header -->
                     @if ($areas->count() > 0)

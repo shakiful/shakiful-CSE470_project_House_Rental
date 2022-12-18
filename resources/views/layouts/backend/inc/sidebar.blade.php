@@ -108,6 +108,15 @@
           </a>
         </li>
 
+        <li class="nav-item has-treeview">
+          <a href="{{ route('welcome') }}" class="nav-link">
+            <i class="fas fa-border-style"></i>
+            <p class="pl-2">
+              Go To Home Page
+            </p>
+          </a>
+        </li>
+
 
         @endif
 
@@ -177,6 +186,15 @@
             <i class="fas fa-history"></i>
             <p class="pl-2">
               Booking History
+            </p>
+          </a>
+        </li>
+        
+        <li class="nav-item has-treeview">
+          <a href="{{ route('welcome') }}" class="nav-link">
+            <i class="fas fa-border-style"></i>
+            <p class="pl-2">
+              Go To Home Page
             </p>
           </a>
         </li>

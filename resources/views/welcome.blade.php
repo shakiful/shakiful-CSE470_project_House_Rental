@@ -80,7 +80,7 @@
                                         <img  src="{{ asset('storage/featured_house/'. $house->featured_image) }}" width="100%" class="img-fluid" alt="Card image">
                                     </div>
                                     <div class="card-body">
-                                        <p><h4><strong><i class="fas fa-map-marker-alt"> {{ $house->area->name }}, Sylhet</i> </strong></h4></p>
+                                        <p><h4><strong><i class="fas fa-map-marker-alt"> {{ $house->area->name }}</i> </strong></h4></p>
                                     
                                         <p class="grey"><a class="address" href="{{ route('house.details', $house->id) }}"><i class="fas fa-warehouse"> {{ $house->address }}</i></a> </p>
                                         <hr>
