@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdff8d5dd904747115e54fccde6de506",
+    "content-hash": "1e799b3369c476c61c8561beea5bf05b",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -5546,6 +5546,49 @@
                 }
             ],
             "time": "2021-02-11T09:01:42+00:00"
+        },
+        {
+            "name": "package-for-laravel/testing-framework",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/package-for-laravel/testing-framework.git",
+                "reference": "08eb630d8e40bd685384032227c8196cb1c96380"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/package-for-laravel/testing-framework/zipball/08eb630d8e40bd685384032227c8196cb1c96380",
+                "reference": "08eb630d8e40bd685384032227c8196cb1c96380",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.8|^6|^7",
+                "php": "^7.3",
+                "phpunit/phpunit": "^8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PackageForLaravel\\TestingFramework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Saray",
+                    "email": "aaron@aaronsaray.com"
+                }
+            ],
+            "description": "Useful library functionality for testing Laravel Apps",
+            "support": {
+                "issues": "https://github.com/package-for-laravel/testing-framework/issues",
+                "source": "https://github.com/package-for-laravel/testing-framework/tree/master"
+            },
+            "abandoned": true,
+            "time": "2020-07-30T00:26:33+00:00"
         },
         {
             "name": "phar-io/manifest",
