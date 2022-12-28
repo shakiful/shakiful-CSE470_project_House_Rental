@@ -4,7 +4,7 @@ The platform is an online service that connects Landlords who have vacant proper
 ## Database: MySQL.
 
 <ul>
-## Requirements
+<h2> Requirements </h2>
     <li>PHP 7.4 or higher</li>
     <li>MySQL 5.7 or higher</li>
     <li>Laravel 7.x</li>
@@ -20,7 +20,7 @@ The platform is an online service that connects Landlords who have vacant proper
 </ul>
 
 <ul>
-## Core Features:
+<h2> Core Features: </h2>
     <li><b>Multiauth role (Admin/ Landlord/ Renter)</b></li>
     <li><b>Booking System</b> (house booking)</li>
     <li>Google Login using Socialite Package</li>
@@ -41,7 +41,7 @@ The platform is an online service that connects Landlords who have vacant proper
 
 ##  Activities
 <ul>
-## Admin Panel
+<h2> Admin Panel </h2> 
     <li>See all areas and has ability to edit/delete them</li>
     <li>See all areas created by landlords and ability to delete them.</li>
     <li>Manage all landlords & renter.</li>
@@ -55,7 +55,7 @@ The platform is an online service that connects Landlords who have vacant proper
 
 
 <ul>
-## Landlord Panel
+<h2> Landlord Panel </h2>
     <li>Sign in/ sign out.</li>
     <li>Landlord can change his profile information</li>
     <li>Landlord can create, edit, delete <b>Area</b> (own created)</li>
@@ -71,7 +71,7 @@ The platform is an online service that connects Landlords who have vacant proper
 
 
 <ul>
-## Renter Panel
+<h2> Renter Panel </h2> 
     <li>Sign in/sign out. </li>
     <li>Renter can change his profile information.</li>
     <li>Can reset password if forgotten</li>
